@@ -1,0 +1,39 @@
+.dropdowndiv{
+
+    position: relative;
+    display: inline-block;
+
+}
+
+
+
+.dropbtn{
+    
+    color: yellow;
+    padding: 12px 20px;
+    border: none;
+
+
+}
+.dropvalue{
+    display: none;
+    position: absolute;
+    background-color:red;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropvalue a{
+
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdowndiv:hover .dropvalue{
+
+    display: block;
+
+
+}
